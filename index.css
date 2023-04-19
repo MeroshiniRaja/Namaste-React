@@ -1,7 +1,15 @@
-.heading{
-    color:green;
+.header{
+    display:flex;
+    border: 1px solid black;
+}
+.logo{
+    width:12%;
+}
+.nav-items > ul {
+    display:flex;
 }
 
-#headingComp {
-    color:blue;
+.nav-items > ul > li {
+    margin:10px;
+    list-style-type: none;
 }
